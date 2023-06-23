@@ -13,6 +13,15 @@
     --dairy: #FCFCFC;
 }
 
+body {
+    font-family: Roboto, sans-serif;
+    color: #434455;
+}
+
+button {
+    cursor: pointer;
+}
+
 header {
     border-bottom: 1px solid var(--cornflower, #E7E9FC);
     background: var(--white, #FFFFFF);
