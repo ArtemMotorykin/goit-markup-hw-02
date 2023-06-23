@@ -149,12 +149,16 @@ header {
     background: var(--cornflower, #E7E9FC)
 }
 
-.sect-heads-two {
+.sect-four {
     background-color: #F4F4FD;
 }
 
 .bottom-of-the-page {
     background: var(--navyblue, #2E2F42);
+}
+
+.sect-four-item {
+    background-color: #FFFFFF;
 }
 
 .logo-ligh-two {
