@@ -65,7 +65,7 @@ header {
 .top-line-list:hover,
 .top-line-list:focus,
 .top-line-list:active {
-    color: #404BBF;
+    color: var(--ocean, #404BBF);
 }
 
 .menu-contacts {
