@@ -7,7 +7,6 @@
     --light-slate: #8E8F99;
     --cornflower: #E7E9FC;
     --cloud: #F4F4FD;
-    --navy-blue-model: #2E2F42;
     --grey: #2E2F42;
     --white: #FFFFFF;
     --dairy: #FCFCFC;
@@ -24,7 +23,7 @@ button {
 }
 
 header {
-    background: var(--white, #FFFFFF);
+    background: var(--white);
 }
 
 .list {
@@ -38,16 +37,17 @@ header {
     line-height: 21px;
     letter-spacing: 0.54px;
     text-transform: uppercase;
-    color: var(--iris, #4D5AE5);
+    color: var(--iris);
     line-height: 1.17;
     text-decoration: none;
+    letter-spacing: 0.03em;
 }
 
 .link {
     text-decoration: none;
 }
 .logo-ligh {
-    color: var(--grey, #2E2F42);
+    color: var(--grey);
 
 }
 
@@ -57,7 +57,7 @@ header {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--navy-blue, #2E2F42);
+    color: var(--navy-blue);
     list-style: none;
     text-decoration: none;
 }
@@ -65,7 +65,7 @@ header {
 .top-line-item:hover,
 .top-line-item:focus,
 .top-line-item:active {
-    color: var(--ocean, #404BBF);
+    color: var(--ocean);
 }
 
 .menu-contacts {
@@ -73,7 +73,7 @@ header {
     font-family: Roboto;
     line-height: 24px;
     letter-spacing: 0.32px;
-    color: var(--navy-blue, #2E2F42);
+    color: var(--navy-blue);
     font-style: normal;
 }
 
@@ -81,20 +81,20 @@ header {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--slate, #434455);
+    color: var(--slate);
 }
 
 .adres:hover,
 .adres:focus {
-    color: #404BBF;
+    color: var(--ocean);
 }
 
 .hero-image {
-    background: var(--navyblue, #2E2F42);
+    background: var(--navyblue);
 }
 
 .hero-image-title {
-    color: var(--white, #FFFFFF);
+    color: var(--white);
     font-size: 56px;
     font-family: Roboto;
     font-weight: 700;
@@ -102,9 +102,9 @@ header {
     letter-spacing: 1.12px;
     text-align: center;
 }
-.hero-image-button {
-    background: var(--iris, #4D5AE5);
-    color: var(--white, #FFFFFF);
+.digital {
+    background: var(--iris);
+    color: var(--white);
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -112,13 +112,13 @@ header {
     letter-spacing: 0.04em;
     }
 
-.hero-image-button:hover,
-.hero-image-button:focus {
-    background: var(--ocean, #404BBF)
+.digital:hover,
+.digital:focus {
+    background: var(--ocean)
 }
 
 .sect-heads-three {
-    color: var(--navyblue, #2E2F42);
+    color: var(--navyblue);
     font-size: 20px;
     font-family: Roboto;
     font-weight: 500;
@@ -127,7 +127,7 @@ header {
 }
 
 .section-text {
-    color: var(--slate, #434455);
+    color: var(--slate);
     font-size: 16px;
     font-family: Roboto;
     line-height: 24px;
@@ -135,7 +135,7 @@ header {
 }
 
 .sect-heads-two {
-    color: var(--navyblue, #2E2F42);
+    color: var(--navyblue);
     text-align: center;
     font-size: 36px;
     font-family: Roboto;
@@ -146,7 +146,7 @@ header {
 }
 
 .img-bg {
-    background: var(--cornflower, #E7E9FC)
+    background: var(--cornflower)
 }
 
 .sect-four {
@@ -154,7 +154,7 @@ header {
 }
 
 .bottom-of-the-page {
-    background: var(--navyblue, #2E2F42);
+    background: var(--navyblue);
 }
 
 .sect-four-item {
@@ -166,9 +166,30 @@ header {
 }
 
 .footer-text {
-    color: var(--cloud, #F4F4FD);
+    color: var(--cloud);
     font-size: 16px;
     font-family: Roboto;
     line-height: 24px;
     letter-spacing: 0.32px;
+}
+
+.digital-two {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--cloud);
+}
+.digital-two:hover,
+.digital-two:focus {
+    background: var(--ocean)
+}
+
+.sect-heads-two {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
 }
