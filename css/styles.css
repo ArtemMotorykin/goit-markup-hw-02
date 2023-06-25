@@ -51,7 +51,7 @@ header {
 
 }
 
-.top-line-item {
+.top-item {
     font-size: 16px;
     font-family: Roboto;
     font-weight: 500;
@@ -62,9 +62,9 @@ header {
     text-decoration: none;
 }
 
-.top-line-item:hover,
-.top-line-item:focus,
-.top-line-item:active {
+.top-item:hover,
+.top-item:focus,
+.top-item:active {
     color: var(--ocean);
 }
 
@@ -90,7 +90,7 @@ header {
 }
 
 .hero-image {
-    background: var(--navyblue);
+    background-color: var(--navyblue, #2e2f42);
 }
 
 .hero-image-title {
@@ -184,12 +184,4 @@ header {
 .digital-two:hover,
 .digital-two:focus {
     background: var(--ocean)
-}
-
-.sect-heads-two {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--navy-blue);
 }
