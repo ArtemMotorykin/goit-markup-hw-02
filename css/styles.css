@@ -22,7 +22,7 @@ button {
     cursor: pointer;
 }
 
-header {
+.header {
     background: var(--white);
 }
 
@@ -30,62 +30,47 @@ header {
     list-style: none;
 }
 
-.logo {
-    font-size: 18px;
-    font-family: Raleway, sans-serif;
-    font-weight: 800;
-    line-height: 21px;
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
-    color: var(--iris);
-    line-height: 1.17;
-    text-decoration: none;
-    letter-spacing: 0.03em;
-}
-
 .link {
     text-decoration: none;
 }
+
+.header-logo-upper {
+    font-size: 18px;
+    font-family: Raleway, sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: var(--iris);
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+
 .logo-ligh {
     color: var(--grey);
 
 }
 
-.top-item {
+.header-menu-link {
     font-size: 16px;
-    font-family: Roboto;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
-    list-style: none;
-    text-decoration: none;
 }
 
-.top-item:hover,
-.top-item:focus,
-.top-item:active {
+.header-menu-link:hover,
+.header-menu-link:focus {
     color: var(--ocean);
 }
 
-.menu-contacts {
-    font-size: 16px;
-    font-family: Roboto;
-    line-height: 24px;
-    letter-spacing: 0.32px;
-    color: var(--navy-blue);
-    font-style: normal;
-}
-
-.adres{
+.address-menu-link{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--slate);
 }
 
-.adres:hover,
-.adres:focus {
+.address-menu-link:hover,
+.address-menu-link:focus {
     color: var(--ocean);
 }
 
