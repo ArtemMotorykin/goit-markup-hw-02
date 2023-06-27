@@ -47,7 +47,10 @@ button {
 
 .logo-ligh {
     color: var(--grey);
+}
 
+.logo-ligh-two {
+    color: var(--cloud) ;
 }
 
 .header-menu-link {
@@ -131,7 +134,7 @@ button {
     font-family: Roboto;
     font-weight: 700;
     line-height: 1.11;
-    letter-spacing: 0.72px;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
 }
 
@@ -170,5 +173,6 @@ button {
 }
 .digital-two:hover,
 .digital-two:focus {
-    background: var(--white);
+    background-color: var(--ocean);
+    color: var(--white);
 }
