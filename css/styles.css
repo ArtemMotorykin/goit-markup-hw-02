@@ -10,6 +10,7 @@
     --grey: #2E2F42;
     --white: #FFFFFF;
     --dairy: #FCFCFC;
+
 }
 
 body {
@@ -62,12 +63,15 @@ button {
     color: var(--ocean);
 }
 
+.address {
+    font-style: normal;
+}
+
 .address-menu-link{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--slate);
-    font-style: normal;
 }
 
 .address-menu-link:hover,
@@ -85,7 +89,7 @@ button {
     font-family: Roboto;
     font-weight: 700;
     line-height: 1.07;
-    letter-spacing: 1.12px;
+    letter-spacing: 0.02em;
     text-align: center;
 }
 .digital {
@@ -104,24 +108,24 @@ button {
 }
 
 .sect-heads-three {
-    color: var(--navyblue);
+    color: var(--navy-blue);
     font-size: 20px;
     font-family: Roboto;
     font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.4px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 .section-text {
     color: var(--slate);
     font-size: 16px;
     font-family: Roboto;
-    line-height: 24px;
-    letter-spacing: 0.32px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .sect-heads-two {
-    color: var(--navyblue);
+    color: var(--navy-blue);
     text-align: center;
     font-size: 36px;
     font-family: Roboto;
@@ -140,15 +144,11 @@ button {
 }
 
 .bottom-of-the-page {
-    background: var(--navyblue);
+    background: var(--navy-blue);
 }
 
 .sect-four-item {
     background-color: #FFFFFF;
-}
-
-.logo-ligh-two {
-    color: #f4f4fd;
 }
 
 .footer-text {
@@ -165,9 +165,10 @@ button {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: var(--cloud);
+    color: var(--iris);
+    background-color: var(--cloud);
 }
 .digital-two:hover,
 .digital-two:focus {
-    background: var(--ocean)
+    background: var(--white);
 }
