@@ -93,6 +93,7 @@ button {
 }
 .digital {
     background: var(--iris);
+    font-family: Roboto, sans-serif;
     color: var(--white);
     font-weight: 500;
     font-size: 16px;
