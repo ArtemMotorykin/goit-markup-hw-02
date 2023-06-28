@@ -70,6 +70,7 @@ button {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: var(--slate);
 }
 
 .address-menu-link:hover,
@@ -77,8 +78,14 @@ button {
     color: var(--ocean);
 }
 
+.hero-image {
+    background-color: var(--navy-blue);
+}
+
 .hero-image-title {
+    color: var(--white);
     font-size: 56px;
+    font-family: "Roboto", sans-serif;
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
@@ -86,6 +93,7 @@ button {
 }
 .digital {
     background: var(--iris);
+    color: var(--white);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -126,11 +134,15 @@ button {
 }
 
 .sect-four {
-    background-color: #F4F4FD;
+    background-color: var(--cloud);
 }
 
 .bottom-of-the-page {
     background: var(--navy-blue);
+}
+
+.sect-four-item {
+    background-color: var(--white);
 }
 
 .footer-text {
@@ -142,6 +154,7 @@ button {
 
 .digital-two {
     font-weight: 500;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
